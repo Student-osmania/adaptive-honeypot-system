@@ -1,0 +1,17 @@
+# Core dependencies
+numpy==1.24.2           # For numerical operations, if needed for data processing
+pandas==1.5.3           # For data manipulation and potential logging or analytics
+requests==2.28.2        # For making HTTP requests, useful for remote honeypot interaction
+Flask==2.2.2            # If you plan to build a web interface for your honeypot
+opencv-python==4.7.0.72 # If you plan to integrate image or video-based decoys
+
+# Machine Learning/AI (for future GAN model integration)
+tensorflow==2.12.0      # For using GAN models (if you decide to use TensorFlow)
+torch==2.1.0            # If you decide to use PyTorch for GANs
+
+# Logging and monitoring
+loguru==0.6.0           # Simplified logging for the project
+watchdog==2.1.9         # To monitor filesystem events (such as file access)
+
+# For handling data and creating fake content (useful for decoys)
+faker==18.1             # For generating fake data like names, addresses, etc.
